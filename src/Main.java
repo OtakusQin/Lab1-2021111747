@@ -14,7 +14,7 @@ public class Main {
 //坠机
         // 其他代码...
     }
-
+//B2：我为逝者...
     public static void main(String[] args) {
         // 使用 SwingUtilities.invokeLater 确保 GUI 创建和更新在事件调度线程中进行
         SwingUtilities.invokeLater(() -> {

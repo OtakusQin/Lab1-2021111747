@@ -29,7 +29,7 @@ public class Graph {
         // 确保最后一个单词也在邻接表中
         adjList.putIfAbsent(words[j], new HashMap<>());
     }
-
+//B2：流淌吧...
     // 获取邻接表的方法
     public Map<String, Map<String, Integer>> getAdjList() {
         return adjList;
