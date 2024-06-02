@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     private static Graph graph;
-
+//坠机
     // 定义一个内部静态类用于全局标志,修改修改修改修改修改，其实这个变量并没用上
     public static class GlobalFlags {
         // 声明一个静态标志变量
