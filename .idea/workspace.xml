@@ -29,7 +29,11 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
     "git-widget-placeholder": "Merging B1",
+=======
+    "git-widget-placeholder": "B2",
+>>>>>>> B2
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/86159/Desktop/lab1"
   }
