@@ -12,7 +12,7 @@ public class Main {
         // 声明一个静态标志变量
         public static int flag = 0;
 //坠机
-        // 其他代码...
+        // 其他代码...IDEA
     }
 //B2：我为逝者...
     public static void main(String[] args) {
