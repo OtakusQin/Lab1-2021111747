@@ -3,12 +3,13 @@ import java.util.Map;
 import java.util.HashMap;
 import java.io.FileWriter;
 import java.io.IOException; //
-//原神启动！！云上五...煌煌威灵
+
+//原神启动！！云上五...
 public class Graph {
     // 邻接表，用于存储图的结构。键是单词，值是一个哈希表，表示该单词与其他单词的边及其权重。
     private final Map<String, Map<String, Integer>> adjList = new HashMap<>();
     private String[] words;
-
+//煌煌
     // 构建图的方法，从给定的文本中提取单词并构建邻接表
     public void buildGraph(String text) {
         // 去除文本中的非字母字符，并将文本转为小写
