@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.io.FileWriter;
 import java.io.IOException; //
-//原神启动！！云上五...
+//原神启动！！云上五...规则，就是用来...
 public class Graph {
     // 邻接表，用于存储图的结构。键是单词，值是一个哈希表，表示该单词与其他单词的边及其权重。
     private final Map<String, Map<String, Integer>> adjList = new HashMap<>();
