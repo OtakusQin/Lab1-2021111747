@@ -1,16 +1,16 @@
-import java.util.*;
-import java.util.Map;
-import java.util.HashMap;
 import java.io.FileWriter;
-import java.io.IOException; //
+import java.io.IOException;
+import java.util.*;
 
 //原神启动！！云上五...
+
 /**
  * 可以在这里描述类的功能、用途和重要信息。
  */
 public class Graph {
     // 邻接表，用于存储图的结构。键是单词，值是一个哈希表，表示该单词与其他单词的边及其权重。
     private final Map<String, Map<String, Integer>> adjList = new HashMap<>();
+
     private String[] words;
 //煌煌
     // 构建图的方法，从给定的文本中提取单词并构建邻接表
@@ -47,15 +47,11 @@ public class Graph {
     public Map<String, Map<String, Integer>> getAdjList() {
         return adjList;
     }
-    /**
-     * 可以在这里描述类的功能、用途和重要信息。
-     *
-     * @param adjList b
-     */
     public void setAdjList(Map<String, Map<String, Integer>> adjList) {
         this.adjList.clear();
         this.adjList.putAll(adjList);
     }
+
     // 查询桥接词的方法，即在 word1 和 word2 之间存在的中间词
     /**
      * 可以在这里描述类的功能、用途和重要信息。

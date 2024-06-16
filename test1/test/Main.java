@@ -2,9 +2,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 import java.io.FileNotFoundException;
-
 import java.util.Scanner;
 import java.util.logging.Logger;
+
 /**
  * 可以在这里描述类的功能、用途和重要信息。
  * 这是主函数

@@ -1,8 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.Line2D;
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 可以在这里描述类的功能、用途和重要信息。
  *
